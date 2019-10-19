@@ -1,0 +1,27 @@
+
+850mn IR LED
+
+  * through hole
+    OSRAM 
+    SFH 4556P
+    https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/SFH-4556P/475-3588-ND/5177207
+
+  * SMD
+    Vishay
+    VSMG3700-GS08 
+    https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VSMG3700-GS08/VSMG3700-GS08CT-ND/1681498
+
+
+628nm Red Led
+
+  * through hole
+    Cree
+    CP41B-RHS-CL0Q0EE4
+    https://www.digikey.com/products/en?keywords=CP41B-RHS-CL0Q0EE4-ND
+
+    
+    
+
+
+
+

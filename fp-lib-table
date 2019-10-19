@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name led_5mm_custom)(type KiCad)(uri ${KIPRJMOD}/led_5mm_custom.pretty)(options "")(descr ""))
+  (lib (name led_cree_p4)(type KiCad)(uri ${KIPRJMOD}/led_cree_p4.pretty)(options "")(descr ""))
+  (lib (name BLOCK_CONN_2)(type KiCad)(uri ${KIPRJMOD}/BLOCK_CONN_2.pretty)(options "")(descr ""))
+  (lib (name mount_holes_custom)(type KiCad)(uri ${KIPRJMOD}/mount_holes_custom.pretty)(options "")(descr ""))
+)

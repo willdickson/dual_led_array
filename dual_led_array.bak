@@ -1,0 +1,2579 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 29 0
+EELAYER END
+$Descr User 13000 7000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:LED_ALT D1
+U 1 1 5DA9DF12
+P 1050 1150
+F 0 "D1" V 1043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 998 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 1150 50  0001 C CNN
+F 3 "" H 1050 1150 50  0001 C CNN
+	1    1050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 1300 1050 1400
+$Comp
+L device:LED_ALT D2
+U 1 1 5DAC837A
+P 1050 1550
+F 0 "D2" V 1043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 998 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 1550 50  0001 C CNN
+F 3 "" H 1050 1550 50  0001 C CNN
+	1    1050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 1700 1050 1800
+$Comp
+L device:LED_ALT D3
+U 1 1 5DAC8A46
+P 1050 1950
+F 0 "D3" V 1043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 998 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 1950 50  0001 C CNN
+F 3 "" H 1050 1950 50  0001 C CNN
+	1    1050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 2100 1050 2200
+$Comp
+L device:LED_ALT D4
+U 1 1 5DAC8A51
+P 1050 2350
+F 0 "D4" V 1043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 998 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 2350 50  0001 C CNN
+F 3 "" H 1050 2350 50  0001 C CNN
+	1    1050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 2500 1050 2600
+$Comp
+L device:LED_ALT D5
+U 1 1 5DAC9A6A
+P 1050 2750
+F 0 "D5" V 1043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 998 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 2750 50  0001 C CNN
+F 3 "" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 2900 1050 3000
+$Comp
+L device:LED_ALT D6
+U 1 1 5DAC9A75
+P 1050 3150
+F 0 "D6" V 1043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 998 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 3150 50  0001 C CNN
+F 3 "" H 1050 3150 50  0001 C CNN
+	1    1050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 3300 1050 3400
+$Comp
+L device:LED_ALT D7
+U 1 1 5DAC9A80
+P 1050 3550
+F 0 "D7" V 1043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 998 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 3550 50  0001 C CNN
+F 3 "" H 1050 3550 50  0001 C CNN
+	1    1050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 3700 1050 3800
+$Comp
+L device:LED_ALT D8
+U 1 1 5DAC9A8B
+P 1050 3950
+F 0 "D8" V 1043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 998 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 3950 50  0001 C CNN
+F 3 "" H 1050 3950 50  0001 C CNN
+	1    1050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 4100 1050 4200
+$Comp
+L device:LED_ALT D9
+U 1 1 5DACB7EA
+P 1050 4350
+F 0 "D9" V 1043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 998 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 4350 50  0001 C CNN
+F 3 "" H 1050 4350 50  0001 C CNN
+	1    1050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 4500 1050 4600
+$Comp
+L device:LED_ALT D10
+U 1 1 5DACB7F5
+P 1050 4750
+F 0 "D10" V 1043 4632 50  0000 R CNN
+F 1 "LED_ALT" V 998 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1050 4750 50  0001 C CNN
+F 3 "" H 1050 4750 50  0001 C CNN
+	1    1050 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 4900 1050 5000
+$Comp
+L device:LED_ALT D11
+U 1 1 5DB134E5
+P 1550 1150
+F 0 "D11" V 1543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 1498 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 1150 50  0001 C CNN
+F 3 "" H 1550 1150 50  0001 C CNN
+	1    1550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 1300 1550 1400
+$Comp
+L device:LED_ALT D12
+U 1 1 5DB134F0
+P 1550 1550
+F 0 "D12" V 1543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 1498 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 1550 50  0001 C CNN
+F 3 "" H 1550 1550 50  0001 C CNN
+	1    1550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 1700 1550 1800
+$Comp
+L device:LED_ALT D13
+U 1 1 5DB134FB
+P 1550 1950
+F 0 "D13" V 1543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 1498 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 1950 50  0001 C CNN
+F 3 "" H 1550 1950 50  0001 C CNN
+	1    1550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 2100 1550 2200
+$Comp
+L device:LED_ALT D14
+U 1 1 5DB13506
+P 1550 2350
+F 0 "D14" V 1543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 1498 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 2350 50  0001 C CNN
+F 3 "" H 1550 2350 50  0001 C CNN
+	1    1550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 2500 1550 2600
+$Comp
+L device:LED_ALT D15
+U 1 1 5DB13511
+P 1550 2750
+F 0 "D15" V 1543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 1498 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 2750 50  0001 C CNN
+F 3 "" H 1550 2750 50  0001 C CNN
+	1    1550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 2900 1550 3000
+$Comp
+L device:LED_ALT D16
+U 1 1 5DB1351C
+P 1550 3150
+F 0 "D16" V 1543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 1498 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 3150 50  0001 C CNN
+F 3 "" H 1550 3150 50  0001 C CNN
+	1    1550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 3300 1550 3400
+$Comp
+L device:LED_ALT D17
+U 1 1 5DB13527
+P 1550 3550
+F 0 "D17" V 1543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 1498 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 3550 50  0001 C CNN
+F 3 "" H 1550 3550 50  0001 C CNN
+	1    1550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 3700 1550 3800
+$Comp
+L device:LED_ALT D18
+U 1 1 5DB13532
+P 1550 3950
+F 0 "D18" V 1543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 1498 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 3950 50  0001 C CNN
+F 3 "" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 4100 1550 4200
+$Comp
+L device:LED_ALT D19
+U 1 1 5DB1353D
+P 1550 4350
+F 0 "D19" V 1543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 1498 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 4350 50  0001 C CNN
+F 3 "" H 1550 4350 50  0001 C CNN
+	1    1550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 4500 1550 4600
+$Comp
+L device:LED_ALT D20
+U 1 1 5DB13548
+P 1550 4750
+F 0 "D20" V 1543 4632 50  0000 R CNN
+F 1 "LED_ALT" V 1498 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 1550 4750 50  0001 C CNN
+F 3 "" H 1550 4750 50  0001 C CNN
+	1    1550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 4900 1550 5000
+$Comp
+L device:LED_ALT D21
+U 1 1 5DB31E0D
+P 2050 1150
+F 0 "D21" V 2043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 1998 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 1150 50  0001 C CNN
+F 3 "" H 2050 1150 50  0001 C CNN
+	1    2050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 1300 2050 1400
+$Comp
+L device:LED_ALT D22
+U 1 1 5DB31E18
+P 2050 1550
+F 0 "D22" V 2043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 1998 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 1550 50  0001 C CNN
+F 3 "" H 2050 1550 50  0001 C CNN
+	1    2050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 1700 2050 1800
+$Comp
+L device:LED_ALT D23
+U 1 1 5DB31E23
+P 2050 1950
+F 0 "D23" V 2043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 1998 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 1950 50  0001 C CNN
+F 3 "" H 2050 1950 50  0001 C CNN
+	1    2050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2100 2050 2200
+$Comp
+L device:LED_ALT D24
+U 1 1 5DB31E2E
+P 2050 2350
+F 0 "D24" V 2043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 1998 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 2350 50  0001 C CNN
+F 3 "" H 2050 2350 50  0001 C CNN
+	1    2050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2500 2050 2600
+$Comp
+L device:LED_ALT D25
+U 1 1 5DB31E39
+P 2050 2750
+F 0 "D25" V 2043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 1998 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 2750 50  0001 C CNN
+F 3 "" H 2050 2750 50  0001 C CNN
+	1    2050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2900 2050 3000
+$Comp
+L device:LED_ALT D26
+U 1 1 5DB31E44
+P 2050 3150
+F 0 "D26" V 2043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 1998 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 3150 50  0001 C CNN
+F 3 "" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 3300 2050 3400
+$Comp
+L device:LED_ALT D27
+U 1 1 5DB31E4F
+P 2050 3550
+F 0 "D27" V 2043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 1998 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 3550 50  0001 C CNN
+F 3 "" H 2050 3550 50  0001 C CNN
+	1    2050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 3700 2050 3800
+$Comp
+L device:LED_ALT D28
+U 1 1 5DB31E5A
+P 2050 3950
+F 0 "D28" V 2043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 1998 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 3950 50  0001 C CNN
+F 3 "" H 2050 3950 50  0001 C CNN
+	1    2050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4100 2050 4200
+$Comp
+L device:LED_ALT D29
+U 1 1 5DB31E65
+P 2050 4350
+F 0 "D29" V 2043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 1998 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4500 2050 4600
+$Comp
+L device:LED_ALT D30
+U 1 1 5DB31E70
+P 2050 4750
+F 0 "D30" V 2043 4632 50  0000 R CNN
+F 1 "LED_ALT" V 1998 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2050 4750 50  0001 C CNN
+F 3 "" H 2050 4750 50  0001 C CNN
+	1    2050 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4900 2050 5000
+$Comp
+L device:LED_ALT D31
+U 1 1 5DB31E7B
+P 2550 1150
+F 0 "D31" V 2543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 2498 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 1150 50  0001 C CNN
+F 3 "" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1300 2550 1400
+$Comp
+L device:LED_ALT D32
+U 1 1 5DB31E86
+P 2550 1550
+F 0 "D32" V 2543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 2498 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 1550 50  0001 C CNN
+F 3 "" H 2550 1550 50  0001 C CNN
+	1    2550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1700 2550 1800
+$Comp
+L device:LED_ALT D33
+U 1 1 5DB31E91
+P 2550 1950
+F 0 "D33" V 2543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 2498 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 1950 50  0001 C CNN
+F 3 "" H 2550 1950 50  0001 C CNN
+	1    2550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2100 2550 2200
+$Comp
+L device:LED_ALT D34
+U 1 1 5DB31E9C
+P 2550 2350
+F 0 "D34" V 2543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 2498 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 2350 50  0001 C CNN
+F 3 "" H 2550 2350 50  0001 C CNN
+	1    2550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2500 2550 2600
+$Comp
+L device:LED_ALT D35
+U 1 1 5DB31EA7
+P 2550 2750
+F 0 "D35" V 2543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 2498 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 2750 50  0001 C CNN
+F 3 "" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2900 2550 3000
+$Comp
+L device:LED_ALT D36
+U 1 1 5DB31EB2
+P 2550 3150
+F 0 "D36" V 2543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 2498 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 3150 50  0001 C CNN
+F 3 "" H 2550 3150 50  0001 C CNN
+	1    2550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3300 2550 3400
+$Comp
+L device:LED_ALT D37
+U 1 1 5DB31EBD
+P 2550 3550
+F 0 "D37" V 2543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 2498 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 3550 50  0001 C CNN
+F 3 "" H 2550 3550 50  0001 C CNN
+	1    2550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3700 2550 3800
+$Comp
+L device:LED_ALT D38
+U 1 1 5DB31EC8
+P 2550 3950
+F 0 "D38" V 2543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 2498 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 3950 50  0001 C CNN
+F 3 "" H 2550 3950 50  0001 C CNN
+	1    2550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4100 2550 4200
+$Comp
+L device:LED_ALT D39
+U 1 1 5DB31ED3
+P 2550 4350
+F 0 "D39" V 2543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 2498 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 4350 50  0001 C CNN
+F 3 "" H 2550 4350 50  0001 C CNN
+	1    2550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4500 2550 4600
+$Comp
+L device:LED_ALT D40
+U 1 1 5DB31EDE
+P 2550 4750
+F 0 "D40" V 2543 4632 50  0000 R CNN
+F 1 "LED_ALT" V 2498 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 2550 4750 50  0001 C CNN
+F 3 "" H 2550 4750 50  0001 C CNN
+	1    2550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4900 2550 5000
+$Comp
+L device:LED_ALT D41
+U 1 1 5DB38DB7
+P 3050 1150
+F 0 "D41" V 3043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 2998 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 1150 50  0001 C CNN
+F 3 "" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1300 3050 1400
+$Comp
+L device:LED_ALT D42
+U 1 1 5DB38DC2
+P 3050 1550
+F 0 "D42" V 3043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 2998 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 1550 50  0001 C CNN
+F 3 "" H 3050 1550 50  0001 C CNN
+	1    3050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1700 3050 1800
+$Comp
+L device:LED_ALT D43
+U 1 1 5DB38DCD
+P 3050 1950
+F 0 "D43" V 3043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 2998 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 1950 50  0001 C CNN
+F 3 "" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 2100 3050 2200
+$Comp
+L device:LED_ALT D44
+U 1 1 5DB38DD8
+P 3050 2350
+F 0 "D44" V 3043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 2998 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 2350 50  0001 C CNN
+F 3 "" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 2500 3050 2600
+$Comp
+L device:LED_ALT D45
+U 1 1 5DB38DE3
+P 3050 2750
+F 0 "D45" V 3043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 2998 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 2750 50  0001 C CNN
+F 3 "" H 3050 2750 50  0001 C CNN
+	1    3050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 2900 3050 3000
+$Comp
+L device:LED_ALT D46
+U 1 1 5DB38DEE
+P 3050 3150
+F 0 "D46" V 3043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 2998 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 3150 50  0001 C CNN
+F 3 "" H 3050 3150 50  0001 C CNN
+	1    3050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 3300 3050 3400
+$Comp
+L device:LED_ALT D47
+U 1 1 5DB38DF9
+P 3050 3550
+F 0 "D47" V 3043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 2998 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 3550 50  0001 C CNN
+F 3 "" H 3050 3550 50  0001 C CNN
+	1    3050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 3700 3050 3800
+$Comp
+L device:LED_ALT D48
+U 1 1 5DB38E04
+P 3050 3950
+F 0 "D48" V 3043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 2998 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 3950 50  0001 C CNN
+F 3 "" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 4100 3050 4200
+$Comp
+L device:LED_ALT D49
+U 1 1 5DB38E0F
+P 3050 4350
+F 0 "D49" V 3043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 2998 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 4350 50  0001 C CNN
+F 3 "" H 3050 4350 50  0001 C CNN
+	1    3050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 4500 3050 4600
+$Comp
+L device:LED_ALT D50
+U 1 1 5DB38E1A
+P 3050 4750
+F 0 "D50" V 3043 4632 50  0000 R CNN
+F 1 "LED_ALT" V 2998 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3050 4750 50  0001 C CNN
+F 3 "" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 4900 3050 5000
+$Comp
+L device:LED_ALT D51
+U 1 1 5DB38E25
+P 3550 1150
+F 0 "D51" V 3543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 3498 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 1150 50  0001 C CNN
+F 3 "" H 3550 1150 50  0001 C CNN
+	1    3550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 1300 3550 1400
+$Comp
+L device:LED_ALT D52
+U 1 1 5DB38E30
+P 3550 1550
+F 0 "D52" V 3543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 3498 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 1550 50  0001 C CNN
+F 3 "" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 1700 3550 1800
+$Comp
+L device:LED_ALT D53
+U 1 1 5DB38E3B
+P 3550 1950
+F 0 "D53" V 3543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 3498 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2100 3550 2200
+$Comp
+L device:LED_ALT D54
+U 1 1 5DB38E46
+P 3550 2350
+F 0 "D54" V 3543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 3498 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 2350 50  0001 C CNN
+F 3 "" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2500 3550 2600
+$Comp
+L device:LED_ALT D55
+U 1 1 5DB38E51
+P 3550 2750
+F 0 "D55" V 3543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 3498 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2900 3550 3000
+$Comp
+L device:LED_ALT D56
+U 1 1 5DB38E5C
+P 3550 3150
+F 0 "D56" V 3543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 3498 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 3150 50  0001 C CNN
+F 3 "" H 3550 3150 50  0001 C CNN
+	1    3550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3300 3550 3400
+$Comp
+L device:LED_ALT D57
+U 1 1 5DB38E67
+P 3550 3550
+F 0 "D57" V 3543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 3498 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 3550 50  0001 C CNN
+F 3 "" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3700 3550 3800
+$Comp
+L device:LED_ALT D58
+U 1 1 5DB38E72
+P 3550 3950
+F 0 "D58" V 3543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 3498 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 3950 50  0001 C CNN
+F 3 "" H 3550 3950 50  0001 C CNN
+	1    3550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 4100 3550 4200
+$Comp
+L device:LED_ALT D59
+U 1 1 5DB38E7D
+P 3550 4350
+F 0 "D59" V 3543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 3498 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 4350 50  0001 C CNN
+F 3 "" H 3550 4350 50  0001 C CNN
+	1    3550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 4500 3550 4600
+$Comp
+L device:LED_ALT D60
+U 1 1 5DB38E88
+P 3550 4750
+F 0 "D60" V 3543 4632 50  0000 R CNN
+F 1 "LED_ALT" V 3498 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 3550 4750 50  0001 C CNN
+F 3 "" H 3550 4750 50  0001 C CNN
+	1    3550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 4900 3550 5000
+$Comp
+L device:LED_ALT D61
+U 1 1 5DB38E93
+P 4050 1150
+F 0 "D61" V 4043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 3998 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 1150 50  0001 C CNN
+F 3 "" H 4050 1150 50  0001 C CNN
+	1    4050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 1300 4050 1400
+$Comp
+L device:LED_ALT D62
+U 1 1 5DB38E9E
+P 4050 1550
+F 0 "D62" V 4043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 3998 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 1550 50  0001 C CNN
+F 3 "" H 4050 1550 50  0001 C CNN
+	1    4050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 1700 4050 1800
+$Comp
+L device:LED_ALT D63
+U 1 1 5DB38EA9
+P 4050 1950
+F 0 "D63" V 4043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 3998 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 1950 50  0001 C CNN
+F 3 "" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2100 4050 2200
+$Comp
+L device:LED_ALT D64
+U 1 1 5DB38EB4
+P 4050 2350
+F 0 "D64" V 4043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 3998 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 2350 50  0001 C CNN
+F 3 "" H 4050 2350 50  0001 C CNN
+	1    4050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2500 4050 2600
+$Comp
+L device:LED_ALT D65
+U 1 1 5DB38EBF
+P 4050 2750
+F 0 "D65" V 4043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 3998 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 2750 50  0001 C CNN
+F 3 "" H 4050 2750 50  0001 C CNN
+	1    4050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2900 4050 3000
+$Comp
+L device:LED_ALT D66
+U 1 1 5DB38ECA
+P 4050 3150
+F 0 "D66" V 4043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 3998 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 3150 50  0001 C CNN
+F 3 "" H 4050 3150 50  0001 C CNN
+	1    4050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3300 4050 3400
+$Comp
+L device:LED_ALT D67
+U 1 1 5DB38ED5
+P 4050 3550
+F 0 "D67" V 4043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 3998 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3550 50  0001 C CNN
+	1    4050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3700 4050 3800
+$Comp
+L device:LED_ALT D68
+U 1 1 5DB38EE0
+P 4050 3950
+F 0 "D68" V 4043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 3998 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4100 4050 4200
+$Comp
+L device:LED_ALT D69
+U 1 1 5DB38EEB
+P 4050 4350
+F 0 "D69" V 4043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 3998 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 4350 50  0001 C CNN
+F 3 "" H 4050 4350 50  0001 C CNN
+	1    4050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4500 4050 4600
+$Comp
+L device:LED_ALT D70
+U 1 1 5DB38EF6
+P 4050 4750
+F 0 "D70" V 4043 4632 50  0000 R CNN
+F 1 "LED_ALT" V 3998 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4050 4750 50  0001 C CNN
+F 3 "" H 4050 4750 50  0001 C CNN
+	1    4050 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4900 4050 5000
+$Comp
+L device:LED_ALT D71
+U 1 1 5DB38F01
+P 4550 1150
+F 0 "D71" V 4543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 4498 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 1150 50  0001 C CNN
+F 3 "" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1300 4550 1400
+$Comp
+L device:LED_ALT D72
+U 1 1 5DB38F0C
+P 4550 1550
+F 0 "D72" V 4543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 4498 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1700 4550 1800
+$Comp
+L device:LED_ALT D73
+U 1 1 5DB38F17
+P 4550 1950
+F 0 "D73" V 4543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 4498 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 1950 50  0001 C CNN
+F 3 "" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2100 4550 2200
+$Comp
+L device:LED_ALT D74
+U 1 1 5DB38F22
+P 4550 2350
+F 0 "D74" V 4543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 4498 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 2350 50  0001 C CNN
+F 3 "" H 4550 2350 50  0001 C CNN
+	1    4550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2500 4550 2600
+$Comp
+L device:LED_ALT D75
+U 1 1 5DB38F2D
+P 4550 2750
+F 0 "D75" V 4543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 4498 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 2750 50  0001 C CNN
+F 3 "" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2900 4550 3000
+$Comp
+L device:LED_ALT D76
+U 1 1 5DB38F38
+P 4550 3150
+F 0 "D76" V 4543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 4498 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 3150 50  0001 C CNN
+F 3 "" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3300 4550 3400
+$Comp
+L device:LED_ALT D77
+U 1 1 5DB38F43
+P 4550 3550
+F 0 "D77" V 4543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 4498 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 3550 50  0001 C CNN
+F 3 "" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3700 4550 3800
+$Comp
+L device:LED_ALT D78
+U 1 1 5DB38F4E
+P 4550 3950
+F 0 "D78" V 4543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 4498 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 3950 50  0001 C CNN
+F 3 "" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4100 4550 4200
+$Comp
+L device:LED_ALT D79
+U 1 1 5DB38F59
+P 4550 4350
+F 0 "D79" V 4543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 4498 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 4350 50  0001 C CNN
+F 3 "" H 4550 4350 50  0001 C CNN
+	1    4550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4500 4550 4600
+$Comp
+L device:LED_ALT D80
+U 1 1 5DB38F64
+P 4550 4750
+F 0 "D80" V 4543 4632 50  0000 R CNN
+F 1 "LED_ALT" V 4498 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 4550 4750 50  0001 C CNN
+F 3 "" H 4550 4750 50  0001 C CNN
+	1    4550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4900 4550 5000
+$Comp
+L device:LED_ALT D81
+U 1 1 5DB561A9
+P 5050 1150
+F 0 "D81" V 5043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 4998 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 1150 50  0001 C CNN
+F 3 "" H 5050 1150 50  0001 C CNN
+	1    5050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 1300 5050 1400
+$Comp
+L device:LED_ALT D82
+U 1 1 5DB561B4
+P 5050 1550
+F 0 "D82" V 5043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 4998 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 1550 50  0001 C CNN
+F 3 "" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 1700 5050 1800
+$Comp
+L device:LED_ALT D83
+U 1 1 5DB561BF
+P 5050 1950
+F 0 "D83" V 5043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 4998 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 1950 50  0001 C CNN
+F 3 "" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2100 5050 2200
+$Comp
+L device:LED_ALT D84
+U 1 1 5DB561CA
+P 5050 2350
+F 0 "D84" V 5043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 4998 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 2350 50  0001 C CNN
+F 3 "" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2500 5050 2600
+$Comp
+L device:LED_ALT D85
+U 1 1 5DB561D5
+P 5050 2750
+F 0 "D85" V 5043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 4998 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 2750 50  0001 C CNN
+F 3 "" H 5050 2750 50  0001 C CNN
+	1    5050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2900 5050 3000
+$Comp
+L device:LED_ALT D86
+U 1 1 5DB561E0
+P 5050 3150
+F 0 "D86" V 5043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 4998 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3300 5050 3400
+$Comp
+L device:LED_ALT D87
+U 1 1 5DB561EB
+P 5050 3550
+F 0 "D87" V 5043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 4998 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 3550 50  0001 C CNN
+F 3 "" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3700 5050 3800
+$Comp
+L device:LED_ALT D88
+U 1 1 5DB561F6
+P 5050 3950
+F 0 "D88" V 5043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 4998 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 3950 50  0001 C CNN
+F 3 "" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4100 5050 4200
+$Comp
+L device:LED_ALT D89
+U 1 1 5DB56201
+P 5050 4350
+F 0 "D89" V 5043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 4998 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 4350 50  0001 C CNN
+F 3 "" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4500 5050 4600
+$Comp
+L device:LED_ALT D90
+U 1 1 5DB5620C
+P 5050 4750
+F 0 "D90" V 5043 4632 50  0000 R CNN
+F 1 "LED_ALT" V 4998 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5050 4750 50  0001 C CNN
+F 3 "" H 5050 4750 50  0001 C CNN
+	1    5050 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4900 5050 5000
+$Comp
+L device:LED_ALT D91
+U 1 1 5DB56217
+P 5550 1150
+F 0 "D91" V 5543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 5498 1032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 1150 50  0001 C CNN
+F 3 "" H 5550 1150 50  0001 C CNN
+	1    5550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 1300 5550 1400
+$Comp
+L device:LED_ALT D92
+U 1 1 5DB56222
+P 5550 1550
+F 0 "D92" V 5543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 5498 1432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 1550 50  0001 C CNN
+F 3 "" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 1700 5550 1800
+$Comp
+L device:LED_ALT D93
+U 1 1 5DB5622D
+P 5550 1950
+F 0 "D93" V 5543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 5498 1832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 1950 50  0001 C CNN
+F 3 "" H 5550 1950 50  0001 C CNN
+	1    5550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2100 5550 2200
+$Comp
+L device:LED_ALT D94
+U 1 1 5DB56238
+P 5550 2350
+F 0 "D94" V 5543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 5498 2232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 2350 50  0001 C CNN
+F 3 "" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2500 5550 2600
+$Comp
+L device:LED_ALT D95
+U 1 1 5DB56243
+P 5550 2750
+F 0 "D95" V 5543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 5498 2632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 2750 50  0001 C CNN
+F 3 "" H 5550 2750 50  0001 C CNN
+	1    5550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2900 5550 3000
+$Comp
+L device:LED_ALT D96
+U 1 1 5DB5624E
+P 5550 3150
+F 0 "D96" V 5543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 5498 3032 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 3150 50  0001 C CNN
+F 3 "" H 5550 3150 50  0001 C CNN
+	1    5550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3300 5550 3400
+$Comp
+L device:LED_ALT D97
+U 1 1 5DB56259
+P 5550 3550
+F 0 "D97" V 5543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 5498 3432 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 3550 50  0001 C CNN
+F 3 "" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3700 5550 3800
+$Comp
+L device:LED_ALT D98
+U 1 1 5DB56264
+P 5550 3950
+F 0 "D98" V 5543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 5498 3832 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 3950 50  0001 C CNN
+F 3 "" H 5550 3950 50  0001 C CNN
+	1    5550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4100 5550 4200
+$Comp
+L device:LED_ALT D99
+U 1 1 5DB5626F
+P 5550 4350
+F 0 "D99" V 5543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 5498 4232 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 4350 50  0001 C CNN
+F 3 "" H 5550 4350 50  0001 C CNN
+	1    5550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4500 5550 4600
+$Comp
+L device:LED_ALT D100
+U 1 1 5DB5627A
+P 5550 4750
+F 0 "D100" V 5543 4632 50  0000 R CNN
+F 1 "LED_ALT" V 5498 4632 50  0001 R CNN
+F 2 "led_5mm_custom:LED_5mm_custom" H 5550 4750 50  0001 C CNN
+F 3 "" H 5550 4750 50  0001 C CNN
+	1    5550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4900 5550 5000
+Wire Wire Line
+	1050 5000 1550 5000
+Wire Wire Line
+	1550 5000 2050 5000
+Connection ~ 1550 5000
+Wire Wire Line
+	2050 5000 2550 5000
+Connection ~ 2050 5000
+Wire Wire Line
+	2550 5000 3050 5000
+Connection ~ 2550 5000
+Wire Wire Line
+	3050 5000 3550 5000
+Connection ~ 3050 5000
+Wire Wire Line
+	3550 5000 4050 5000
+Connection ~ 3550 5000
+Wire Wire Line
+	4050 5000 4550 5000
+Wire Wire Line
+	4550 5000 5050 5000
+Connection ~ 4050 5000
+Connection ~ 4550 5000
+Wire Wire Line
+	5050 5000 5550 5000
+Connection ~ 5050 5000
+Wire Wire Line
+	1050 850  1550 850 
+Wire Wire Line
+	1550 850  1550 1000
+Wire Wire Line
+	1050 850  1050 1000
+Wire Wire Line
+	1550 850  2050 850 
+Wire Wire Line
+	2050 850  2050 1000
+Connection ~ 1550 850 
+Wire Wire Line
+	2050 850  2550 850 
+Wire Wire Line
+	2550 850  2550 1000
+Connection ~ 2050 850 
+Wire Wire Line
+	2550 850  3050 850 
+Wire Wire Line
+	3050 850  3050 1000
+Connection ~ 2550 850 
+Wire Wire Line
+	3050 850  3550 850 
+Wire Wire Line
+	3550 850  3550 1000
+Connection ~ 3050 850 
+Wire Wire Line
+	3550 850  4050 850 
+Wire Wire Line
+	4050 850  4050 1000
+Connection ~ 3550 850 
+Wire Wire Line
+	4050 850  4550 850 
+Wire Wire Line
+	4550 850  4550 1000
+Connection ~ 4050 850 
+Wire Wire Line
+	4550 850  5050 850 
+Wire Wire Line
+	5050 850  5050 1000
+Connection ~ 4550 850 
+Wire Wire Line
+	5050 850  5550 850 
+Wire Wire Line
+	5550 850  5550 1000
+Connection ~ 5050 850 
+$Comp
+L conn:Screw_Terminal_01x02 J1
+U 1 1 5DBBA662
+P 6250 850
+F 0 "J1" H 6330 796 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6330 751 50  0001 L CNN
+F 2 "led_cree_p4:LED-0p2in" H 6250 850 50  0001 C CNN
+F 3 "~" H 6250 850 50  0001 C CNN
+	1    6250 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 850  6050 850 
+Connection ~ 5550 850 
+Wire Wire Line
+	6050 950  5950 950 
+Wire Wire Line
+	5950 950  5950 5000
+Wire Wire Line
+	5950 5000 5550 5000
+Connection ~ 5550 5000
+$Comp
+L device:LED_ALT D101
+U 1 1 5DBFFA2F
+P 7050 1150
+F 0 "D101" V 7043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 6998 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 1150 50  0001 C CNN
+F 3 "" H 7050 1150 50  0001 C CNN
+	1    7050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 1300 7050 1400
+$Comp
+L device:LED_ALT D102
+U 1 1 5DBFFA3A
+P 7050 1550
+F 0 "D102" V 7043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 6998 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 1550 50  0001 C CNN
+F 3 "" H 7050 1550 50  0001 C CNN
+	1    7050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 1700 7050 1800
+$Comp
+L device:LED_ALT D103
+U 1 1 5DBFFA45
+P 7050 1950
+F 0 "D103" V 7043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 6998 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 1950 50  0001 C CNN
+F 3 "" H 7050 1950 50  0001 C CNN
+	1    7050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2100 7050 2200
+$Comp
+L device:LED_ALT D104
+U 1 1 5DBFFA50
+P 7050 2350
+F 0 "D104" V 7043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 6998 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 2350 50  0001 C CNN
+F 3 "" H 7050 2350 50  0001 C CNN
+	1    7050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2500 7050 2600
+$Comp
+L device:LED_ALT D105
+U 1 1 5DBFFA5B
+P 7050 2750
+F 0 "D105" V 7043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 6998 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 2750 50  0001 C CNN
+F 3 "" H 7050 2750 50  0001 C CNN
+	1    7050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2900 7050 3000
+$Comp
+L device:LED_ALT D106
+U 1 1 5DBFFA66
+P 7050 3150
+F 0 "D106" V 7043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 6998 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 3150 50  0001 C CNN
+F 3 "" H 7050 3150 50  0001 C CNN
+	1    7050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3300 7050 3400
+$Comp
+L device:LED_ALT D107
+U 1 1 5DBFFA71
+P 7050 3550
+F 0 "D107" V 7043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 6998 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 3550 50  0001 C CNN
+F 3 "" H 7050 3550 50  0001 C CNN
+	1    7050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3700 7050 3800
+$Comp
+L device:LED_ALT D108
+U 1 1 5DBFFA7C
+P 7050 3950
+F 0 "D108" V 7043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 6998 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 3950 50  0001 C CNN
+F 3 "" H 7050 3950 50  0001 C CNN
+	1    7050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4100 7050 4200
+$Comp
+L device:LED_ALT D109
+U 1 1 5DBFFA87
+P 7050 4350
+F 0 "D109" V 7043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 6998 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7050 4350 50  0001 C CNN
+F 3 "" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4500 7050 4600
+$Comp
+L device:LED_ALT D110
+U 1 1 5DBFFA9D
+P 7550 1150
+F 0 "D110" V 7543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 7498 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 1150 50  0001 C CNN
+F 3 "" H 7550 1150 50  0001 C CNN
+	1    7550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1300 7550 1400
+$Comp
+L device:LED_ALT D111
+U 1 1 5DBFFAA8
+P 7550 1550
+F 0 "D111" V 7543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 7498 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 1550 50  0001 C CNN
+F 3 "" H 7550 1550 50  0001 C CNN
+	1    7550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1700 7550 1800
+$Comp
+L device:LED_ALT D112
+U 1 1 5DBFFAB3
+P 7550 1950
+F 0 "D112" V 7543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 7498 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 1950 50  0001 C CNN
+F 3 "" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2100 7550 2200
+$Comp
+L device:LED_ALT D113
+U 1 1 5DBFFABE
+P 7550 2350
+F 0 "D113" V 7543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 7498 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 2350 50  0001 C CNN
+F 3 "" H 7550 2350 50  0001 C CNN
+	1    7550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2500 7550 2600
+$Comp
+L device:LED_ALT D114
+U 1 1 5DBFFAC9
+P 7550 2750
+F 0 "D114" V 7543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 7498 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 2750 50  0001 C CNN
+F 3 "" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2900 7550 3000
+$Comp
+L device:LED_ALT D115
+U 1 1 5DBFFAD4
+P 7550 3150
+F 0 "D115" V 7543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 7498 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 3150 50  0001 C CNN
+F 3 "" H 7550 3150 50  0001 C CNN
+	1    7550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3300 7550 3400
+$Comp
+L device:LED_ALT D116
+U 1 1 5DBFFADF
+P 7550 3550
+F 0 "D116" V 7543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 7498 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 3550 50  0001 C CNN
+F 3 "" H 7550 3550 50  0001 C CNN
+	1    7550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3700 7550 3800
+$Comp
+L device:LED_ALT D117
+U 1 1 5DBFFAEA
+P 7550 3950
+F 0 "D117" V 7543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 7498 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 3950 50  0001 C CNN
+F 3 "" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 4100 7550 4200
+$Comp
+L device:LED_ALT D118
+U 1 1 5DBFFAF5
+P 7550 4350
+F 0 "D118" V 7543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 7498 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 7550 4350 50  0001 C CNN
+F 3 "" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 4500 7550 4600
+$Comp
+L device:LED_ALT D119
+U 1 1 5DBFFB0B
+P 8050 1150
+F 0 "D119" V 8043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 7998 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 1150 50  0001 C CNN
+F 3 "" H 8050 1150 50  0001 C CNN
+	1    8050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1300 8050 1400
+$Comp
+L device:LED_ALT D120
+U 1 1 5DBFFB16
+P 8050 1550
+F 0 "D120" V 8043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 7998 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 1550 50  0001 C CNN
+F 3 "" H 8050 1550 50  0001 C CNN
+	1    8050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1700 8050 1800
+$Comp
+L device:LED_ALT D121
+U 1 1 5DBFFB21
+P 8050 1950
+F 0 "D121" V 8043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 7998 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 1950 50  0001 C CNN
+F 3 "" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2100 8050 2200
+$Comp
+L device:LED_ALT D122
+U 1 1 5DBFFB2C
+P 8050 2350
+F 0 "D122" V 8043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 7998 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 2350 50  0001 C CNN
+F 3 "" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2500 8050 2600
+$Comp
+L device:LED_ALT D123
+U 1 1 5DBFFB37
+P 8050 2750
+F 0 "D123" V 8043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 7998 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 2750 50  0001 C CNN
+F 3 "" H 8050 2750 50  0001 C CNN
+	1    8050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2900 8050 3000
+$Comp
+L device:LED_ALT D124
+U 1 1 5DBFFB42
+P 8050 3150
+F 0 "D124" V 8043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 7998 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 3150 50  0001 C CNN
+F 3 "" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3300 8050 3400
+$Comp
+L device:LED_ALT D125
+U 1 1 5DBFFB4D
+P 8050 3550
+F 0 "D125" V 8043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 7998 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 3550 50  0001 C CNN
+F 3 "" H 8050 3550 50  0001 C CNN
+	1    8050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3700 8050 3800
+$Comp
+L device:LED_ALT D126
+U 1 1 5DBFFB58
+P 8050 3950
+F 0 "D126" V 8043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 7998 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 3950 50  0001 C CNN
+F 3 "" H 8050 3950 50  0001 C CNN
+	1    8050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 4100 8050 4200
+$Comp
+L device:LED_ALT D127
+U 1 1 5DBFFB63
+P 8050 4350
+F 0 "D127" V 8043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 7998 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8050 4350 50  0001 C CNN
+F 3 "" H 8050 4350 50  0001 C CNN
+	1    8050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 4500 8050 4600
+$Comp
+L device:LED_ALT D128
+U 1 1 5DBFFB79
+P 8550 1150
+F 0 "D128" V 8543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 8498 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 1150 50  0001 C CNN
+F 3 "" H 8550 1150 50  0001 C CNN
+	1    8550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1300 8550 1400
+$Comp
+L device:LED_ALT D129
+U 1 1 5DBFFB84
+P 8550 1550
+F 0 "D129" V 8543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 8498 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 1550 50  0001 C CNN
+F 3 "" H 8550 1550 50  0001 C CNN
+	1    8550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1700 8550 1800
+$Comp
+L device:LED_ALT D130
+U 1 1 5DBFFB8F
+P 8550 1950
+F 0 "D130" V 8543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 8498 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 1950 50  0001 C CNN
+F 3 "" H 8550 1950 50  0001 C CNN
+	1    8550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2100 8550 2200
+$Comp
+L device:LED_ALT D131
+U 1 1 5DBFFB9A
+P 8550 2350
+F 0 "D131" V 8543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 8498 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 2350 50  0001 C CNN
+F 3 "" H 8550 2350 50  0001 C CNN
+	1    8550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2500 8550 2600
+$Comp
+L device:LED_ALT D132
+U 1 1 5DBFFBA5
+P 8550 2750
+F 0 "D132" V 8543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 8498 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 2750 50  0001 C CNN
+F 3 "" H 8550 2750 50  0001 C CNN
+	1    8550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2900 8550 3000
+$Comp
+L device:LED_ALT D133
+U 1 1 5DBFFBB0
+P 8550 3150
+F 0 "D133" V 8543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 8498 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 3150 50  0001 C CNN
+F 3 "" H 8550 3150 50  0001 C CNN
+	1    8550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3300 8550 3400
+$Comp
+L device:LED_ALT D134
+U 1 1 5DBFFBBB
+P 8550 3550
+F 0 "D134" V 8543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 8498 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 3550 50  0001 C CNN
+F 3 "" H 8550 3550 50  0001 C CNN
+	1    8550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3700 8550 3800
+$Comp
+L device:LED_ALT D135
+U 1 1 5DBFFBC6
+P 8550 3950
+F 0 "D135" V 8543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 8498 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 3950 50  0001 C CNN
+F 3 "" H 8550 3950 50  0001 C CNN
+	1    8550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 4100 8550 4200
+$Comp
+L device:LED_ALT D136
+U 1 1 5DBFFBD1
+P 8550 4350
+F 0 "D136" V 8543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 8498 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 8550 4350 50  0001 C CNN
+F 3 "" H 8550 4350 50  0001 C CNN
+	1    8550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 4500 8550 4600
+$Comp
+L device:LED_ALT D137
+U 1 1 5DBFFBE7
+P 9050 1150
+F 0 "D137" V 9043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 8998 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 1150 50  0001 C CNN
+F 3 "" H 9050 1150 50  0001 C CNN
+	1    9050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 1300 9050 1400
+$Comp
+L device:LED_ALT D138
+U 1 1 5DBFFBF2
+P 9050 1550
+F 0 "D138" V 9043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 8998 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 1550 50  0001 C CNN
+F 3 "" H 9050 1550 50  0001 C CNN
+	1    9050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 1700 9050 1800
+$Comp
+L device:LED_ALT D139
+U 1 1 5DBFFBFD
+P 9050 1950
+F 0 "D139" V 9043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 8998 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 1950 50  0001 C CNN
+F 3 "" H 9050 1950 50  0001 C CNN
+	1    9050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 2100 9050 2200
+$Comp
+L device:LED_ALT D140
+U 1 1 5DBFFC08
+P 9050 2350
+F 0 "D140" V 9043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 8998 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 2350 50  0001 C CNN
+F 3 "" H 9050 2350 50  0001 C CNN
+	1    9050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 2500 9050 2600
+$Comp
+L device:LED_ALT D141
+U 1 1 5DBFFC13
+P 9050 2750
+F 0 "D141" V 9043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 8998 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 2750 50  0001 C CNN
+F 3 "" H 9050 2750 50  0001 C CNN
+	1    9050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 2900 9050 3000
+$Comp
+L device:LED_ALT D142
+U 1 1 5DBFFC1E
+P 9050 3150
+F 0 "D142" V 9043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 8998 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 3150 50  0001 C CNN
+F 3 "" H 9050 3150 50  0001 C CNN
+	1    9050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 3300 9050 3400
+$Comp
+L device:LED_ALT D143
+U 1 1 5DBFFC29
+P 9050 3550
+F 0 "D143" V 9043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 8998 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 3550 50  0001 C CNN
+F 3 "" H 9050 3550 50  0001 C CNN
+	1    9050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 3700 9050 3800
+$Comp
+L device:LED_ALT D144
+U 1 1 5DBFFC34
+P 9050 3950
+F 0 "D144" V 9043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 8998 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 3950 50  0001 C CNN
+F 3 "" H 9050 3950 50  0001 C CNN
+	1    9050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 4100 9050 4200
+$Comp
+L device:LED_ALT D145
+U 1 1 5DBFFC3F
+P 9050 4350
+F 0 "D145" V 9043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 8998 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9050 4350 50  0001 C CNN
+F 3 "" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 4500 9050 4600
+$Comp
+L device:LED_ALT D146
+U 1 1 5DBFFC55
+P 9550 1150
+F 0 "D146" V 9543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 9498 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 1150 50  0001 C CNN
+F 3 "" H 9550 1150 50  0001 C CNN
+	1    9550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 1300 9550 1400
+$Comp
+L device:LED_ALT D147
+U 1 1 5DBFFC60
+P 9550 1550
+F 0 "D147" V 9543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 9498 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 1550 50  0001 C CNN
+F 3 "" H 9550 1550 50  0001 C CNN
+	1    9550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 1700 9550 1800
+$Comp
+L device:LED_ALT D148
+U 1 1 5DBFFC6B
+P 9550 1950
+F 0 "D148" V 9543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 9498 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 1950 50  0001 C CNN
+F 3 "" H 9550 1950 50  0001 C CNN
+	1    9550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2100 9550 2200
+$Comp
+L device:LED_ALT D149
+U 1 1 5DBFFC76
+P 9550 2350
+F 0 "D149" V 9543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 9498 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 2350 50  0001 C CNN
+F 3 "" H 9550 2350 50  0001 C CNN
+	1    9550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2500 9550 2600
+$Comp
+L device:LED_ALT D150
+U 1 1 5DBFFC81
+P 9550 2750
+F 0 "D150" V 9543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 9498 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 2750 50  0001 C CNN
+F 3 "" H 9550 2750 50  0001 C CNN
+	1    9550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2900 9550 3000
+$Comp
+L device:LED_ALT D151
+U 1 1 5DBFFC8C
+P 9550 3150
+F 0 "D151" V 9543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 9498 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 3150 50  0001 C CNN
+F 3 "" H 9550 3150 50  0001 C CNN
+	1    9550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 3300 9550 3400
+$Comp
+L device:LED_ALT D152
+U 1 1 5DBFFC97
+P 9550 3550
+F 0 "D152" V 9543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 9498 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 3550 50  0001 C CNN
+F 3 "" H 9550 3550 50  0001 C CNN
+	1    9550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 3700 9550 3800
+$Comp
+L device:LED_ALT D153
+U 1 1 5DBFFCA2
+P 9550 3950
+F 0 "D153" V 9543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 9498 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 3950 50  0001 C CNN
+F 3 "" H 9550 3950 50  0001 C CNN
+	1    9550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 4100 9550 4200
+$Comp
+L device:LED_ALT D154
+U 1 1 5DBFFCAD
+P 9550 4350
+F 0 "D154" V 9543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 9498 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 9550 4350 50  0001 C CNN
+F 3 "" H 9550 4350 50  0001 C CNN
+	1    9550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 4500 9550 4600
+$Comp
+L device:LED_ALT D155
+U 1 1 5DBFFCC3
+P 10050 1150
+F 0 "D155" V 10043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 9998 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 1150 50  0001 C CNN
+F 3 "" H 10050 1150 50  0001 C CNN
+	1    10050 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 1300 10050 1400
+$Comp
+L device:LED_ALT D156
+U 1 1 5DBFFCCE
+P 10050 1550
+F 0 "D156" V 10043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 9998 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 1550 50  0001 C CNN
+F 3 "" H 10050 1550 50  0001 C CNN
+	1    10050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 1700 10050 1800
+$Comp
+L device:LED_ALT D157
+U 1 1 5DBFFCD9
+P 10050 1950
+F 0 "D157" V 10043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 9998 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 1950 50  0001 C CNN
+F 3 "" H 10050 1950 50  0001 C CNN
+	1    10050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 2100 10050 2200
+$Comp
+L device:LED_ALT D158
+U 1 1 5DBFFCE4
+P 10050 2350
+F 0 "D158" V 10043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 9998 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 2350 50  0001 C CNN
+F 3 "" H 10050 2350 50  0001 C CNN
+	1    10050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 2500 10050 2600
+$Comp
+L device:LED_ALT D159
+U 1 1 5DBFFCEF
+P 10050 2750
+F 0 "D159" V 10043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 9998 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 2750 50  0001 C CNN
+F 3 "" H 10050 2750 50  0001 C CNN
+	1    10050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 2900 10050 3000
+$Comp
+L device:LED_ALT D160
+U 1 1 5DBFFCFA
+P 10050 3150
+F 0 "D160" V 10043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 9998 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 3150 50  0001 C CNN
+F 3 "" H 10050 3150 50  0001 C CNN
+	1    10050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 3300 10050 3400
+$Comp
+L device:LED_ALT D161
+U 1 1 5DBFFD05
+P 10050 3550
+F 0 "D161" V 10043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 9998 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 3550 50  0001 C CNN
+F 3 "" H 10050 3550 50  0001 C CNN
+	1    10050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 3700 10050 3800
+$Comp
+L device:LED_ALT D162
+U 1 1 5DBFFD10
+P 10050 3950
+F 0 "D162" V 10043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 9998 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 3950 50  0001 C CNN
+F 3 "" H 10050 3950 50  0001 C CNN
+	1    10050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 4100 10050 4200
+$Comp
+L device:LED_ALT D163
+U 1 1 5DBFFD1B
+P 10050 4350
+F 0 "D163" V 10043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 9998 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10050 4350 50  0001 C CNN
+F 3 "" H 10050 4350 50  0001 C CNN
+	1    10050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 4500 10050 4600
+$Comp
+L device:LED_ALT D164
+U 1 1 5DBFFD31
+P 10550 1150
+F 0 "D164" V 10543 1032 50  0000 R CNN
+F 1 "LED_ALT" V 10498 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 1150 50  0001 C CNN
+F 3 "" H 10550 1150 50  0001 C CNN
+	1    10550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 1300 10550 1400
+$Comp
+L device:LED_ALT D165
+U 1 1 5DBFFD3C
+P 10550 1550
+F 0 "D165" V 10543 1432 50  0000 R CNN
+F 1 "LED_ALT" V 10498 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 1550 50  0001 C CNN
+F 3 "" H 10550 1550 50  0001 C CNN
+	1    10550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 1700 10550 1800
+$Comp
+L device:LED_ALT D166
+U 1 1 5DBFFD47
+P 10550 1950
+F 0 "D166" V 10543 1832 50  0000 R CNN
+F 1 "LED_ALT" V 10498 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 1950 50  0001 C CNN
+F 3 "" H 10550 1950 50  0001 C CNN
+	1    10550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 2100 10550 2200
+$Comp
+L device:LED_ALT D167
+U 1 1 5DBFFD52
+P 10550 2350
+F 0 "D167" V 10543 2232 50  0000 R CNN
+F 1 "LED_ALT" V 10498 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 2350 50  0001 C CNN
+F 3 "" H 10550 2350 50  0001 C CNN
+	1    10550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 2500 10550 2600
+$Comp
+L device:LED_ALT D168
+U 1 1 5DBFFD5D
+P 10550 2750
+F 0 "D168" V 10543 2632 50  0000 R CNN
+F 1 "LED_ALT" V 10498 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 2750 50  0001 C CNN
+F 3 "" H 10550 2750 50  0001 C CNN
+	1    10550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 2900 10550 3000
+$Comp
+L device:LED_ALT D169
+U 1 1 5DBFFD68
+P 10550 3150
+F 0 "D169" V 10543 3032 50  0000 R CNN
+F 1 "LED_ALT" V 10498 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 3150 50  0001 C CNN
+F 3 "" H 10550 3150 50  0001 C CNN
+	1    10550 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 3300 10550 3400
+$Comp
+L device:LED_ALT D170
+U 1 1 5DBFFD73
+P 10550 3550
+F 0 "D170" V 10543 3432 50  0000 R CNN
+F 1 "LED_ALT" V 10498 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 3550 50  0001 C CNN
+F 3 "" H 10550 3550 50  0001 C CNN
+	1    10550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 3700 10550 3800
+$Comp
+L device:LED_ALT D171
+U 1 1 5DBFFD7E
+P 10550 3950
+F 0 "D171" V 10543 3832 50  0000 R CNN
+F 1 "LED_ALT" V 10498 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 3950 50  0001 C CNN
+F 3 "" H 10550 3950 50  0001 C CNN
+	1    10550 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 4100 10550 4200
+$Comp
+L device:LED_ALT D172
+U 1 1 5DBFFD89
+P 10550 4350
+F 0 "D172" V 10543 4232 50  0000 R CNN
+F 1 "LED_ALT" V 10498 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 10550 4350 50  0001 C CNN
+F 3 "" H 10550 4350 50  0001 C CNN
+	1    10550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 4500 10550 4600
+Wire Wire Line
+	11050 1300 11050 1400
+Wire Wire Line
+	11050 1700 11050 1800
+$Comp
+L device:LED_ALT D175
+U 1 1 5DBFFDB5
+P 11050 1950
+F 0 "D175" V 11043 1832 50  0000 R CNN
+F 1 "LED_ALT" V 10998 1832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 1950 50  0001 C CNN
+F 3 "" H 11050 1950 50  0001 C CNN
+	1    11050 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 2100 11050 2200
+$Comp
+L device:LED_ALT D176
+U 1 1 5DBFFDC0
+P 11050 2350
+F 0 "D176" V 11043 2232 50  0000 R CNN
+F 1 "LED_ALT" V 10998 2232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 2350 50  0001 C CNN
+F 3 "" H 11050 2350 50  0001 C CNN
+	1    11050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 2500 11050 2600
+$Comp
+L device:LED_ALT D177
+U 1 1 5DBFFDCB
+P 11050 2750
+F 0 "D177" V 11043 2632 50  0000 R CNN
+F 1 "LED_ALT" V 10998 2632 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 2750 50  0001 C CNN
+F 3 "" H 11050 2750 50  0001 C CNN
+	1    11050 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 2900 11050 3000
+$Comp
+L device:LED_ALT D178
+U 1 1 5DBFFDD6
+P 11050 3150
+F 0 "D178" V 11043 3032 50  0000 R CNN
+F 1 "LED_ALT" V 10998 3032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 3150 50  0001 C CNN
+F 3 "" H 11050 3150 50  0001 C CNN
+	1    11050 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 3300 11050 3400
+$Comp
+L device:LED_ALT D179
+U 1 1 5DBFFDE1
+P 11050 3550
+F 0 "D179" V 11043 3432 50  0000 R CNN
+F 1 "LED_ALT" V 10998 3432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 3550 50  0001 C CNN
+F 3 "" H 11050 3550 50  0001 C CNN
+	1    11050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 3700 11050 3800
+$Comp
+L device:LED_ALT D180
+U 1 1 5DBFFDEC
+P 11050 3950
+F 0 "D180" V 11043 3832 50  0000 R CNN
+F 1 "LED_ALT" V 10998 3832 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 3950 50  0001 C CNN
+F 3 "" H 11050 3950 50  0001 C CNN
+	1    11050 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 4100 11050 4200
+$Comp
+L device:LED_ALT D181
+U 1 1 5DBFFDF7
+P 11050 4350
+F 0 "D181" V 11043 4232 50  0000 R CNN
+F 1 "LED_ALT" V 10998 4232 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 4350 50  0001 C CNN
+F 3 "" H 11050 4350 50  0001 C CNN
+	1    11050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 4500 11050 4600
+Wire Wire Line
+	7050 4600 7550 4600
+Wire Wire Line
+	7550 4600 8050 4600
+Connection ~ 7550 4600
+Wire Wire Line
+	8050 4600 8550 4600
+Connection ~ 8050 4600
+Wire Wire Line
+	8550 4600 9050 4600
+Connection ~ 8550 4600
+Wire Wire Line
+	9050 4600 9550 4600
+Connection ~ 9050 4600
+Wire Wire Line
+	9550 4600 10050 4600
+Wire Wire Line
+	10050 4600 10550 4600
+Connection ~ 9550 4600
+Connection ~ 10050 4600
+Wire Wire Line
+	10550 4600 11050 4600
+Connection ~ 10550 4600
+Wire Wire Line
+	7050 850  7050 1000
+Wire Wire Line
+	7050 850  7550 850 
+Wire Wire Line
+	7550 850  7550 1000
+Wire Wire Line
+	7550 850  8050 850 
+Wire Wire Line
+	8050 850  8050 1000
+Connection ~ 7550 850 
+Wire Wire Line
+	8050 850  8550 850 
+Wire Wire Line
+	8550 850  8550 1000
+Connection ~ 8050 850 
+Wire Wire Line
+	8550 850  9050 850 
+Wire Wire Line
+	9050 850  9050 1000
+Connection ~ 8550 850 
+Wire Wire Line
+	9050 850  9550 850 
+Wire Wire Line
+	9550 850  9550 1000
+Connection ~ 9050 850 
+Wire Wire Line
+	9550 850  10050 850 
+Wire Wire Line
+	10050 850  10050 1000
+Connection ~ 9550 850 
+Wire Wire Line
+	10050 850  10550 850 
+Wire Wire Line
+	10550 850  10550 1000
+Connection ~ 10050 850 
+$Comp
+L conn:Screw_Terminal_01x02 J2
+U 1 1 5DBFFE39
+P 11750 850
+F 0 "J2" H 11830 796 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 11830 751 50  0001 L CNN
+F 2 "led_cree_p4:LED-0p2in" H 11750 850 50  0001 C CNN
+F 3 "~" H 11750 850 50  0001 C CNN
+	1    11750 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 950  11450 950 
+Wire Wire Line
+	11450 4600 11050 4600
+Connection ~ 11050 4600
+$Comp
+L device:LED_ALT D174
+U 1 1 5DBFFDAA
+P 11050 1550
+F 0 "D174" V 11043 1432 50  0000 R CNN
+F 1 "LED_ALT" V 10998 1432 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 1550 50  0001 C CNN
+F 3 "" H 11050 1550 50  0001 C CNN
+	1    11050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:LED_ALT D173
+U 1 1 5DBFFD9F
+P 11050 1150
+F 0 "D173" V 11043 1032 50  0000 R CNN
+F 1 "LED_ALT" V 10998 1032 50  0001 R CNN
+F 2 "led_cree_p4:LED-0p2in" H 11050 1150 50  0001 C CNN
+F 3 "" H 11050 1150 50  0001 C CNN
+	1    11050 1150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10550 850 
+Wire Wire Line
+	11050 850  11550 850 
+Wire Wire Line
+	10550 850  11050 850 
+Connection ~ 11050 850 
+Wire Wire Line
+	11050 850  11050 1000
+Wire Wire Line
+	11450 950  11450 4600
+$EndSCHEMATC
