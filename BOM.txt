@@ -1,0 +1,6 @@
+part       description               vendor       PN                         QTY
+-----------------------------------------------------------------------------------
+D1-D100    OSRAM 850mn IR LED        Digikey      475-3588-ND                100
+D101-D173  Cree 628nm red LED        Digikey      CP41B-RHS-CL0Q0EE4-ND       81   
+J1,J2      Screw Terminal, 2-pos     Digikey      ED2635-ND                    2
+
